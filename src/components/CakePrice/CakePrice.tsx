@@ -1,10 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+import { PancakeRoundIcon } from "../Svg";
 import Text from "../Text/Text";
 import Skeleton from "../Skeleton/Skeleton";
 import { Colors } from "../../theme";
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const logo = require("./asset/logo.png")
 
 export interface Props {
   color?: keyof Colors;
@@ -26,10 +25,8 @@ const PriceLink = styled.a`
 
 const CakePrice: React.FC<Props> = ({ cakePriceUsd, color = "textSubtle" }) => {
   return cakePriceUsd ? (
-    <PriceLink
-      href="#"
-    >
-      <img src={logo} alt="logo"  width="24px" style={{marginRight: "8px"}}/>
+    <PriceLink href="#">
+      <img src="https://i.imgur.com/TFCiyH4.png" alt="tx8-logo" width="24px" style={{marginRight: "8px"}}/>
       <Text color={color} bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>
     </PriceLink>
   ) : (

@@ -2047,13 +2047,11 @@ var Skeleton = function (_a) {
 };
 var templateObject_1$T, templateObject_2$u, templateObject_3$b, templateObject_4$8, templateObject_5$6;
 
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-var logo = require("./asset/logo.png");
 var PriceLink = styled__default['default'].a(templateObject_1$S || (templateObject_1$S = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd, _b = _a.color, color = _b === void 0 ? "textSubtle" : _b;
     return cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "#" },
-        React__default['default'].createElement("img", { src: logo, alt: "logo", width: "24px", style: { marginRight: "8px" } }),
+        React__default['default'].createElement("img", { src: "https://i.imgur.com/TFCiyH4.png", alt: "tx8-logo", width: "24px", style: { marginRight: "8px" } }),
         React__default['default'].createElement(Text, { color: color, bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }));
 };
 var CakePrice$1 = React__default['default'].memo(CakePrice);
