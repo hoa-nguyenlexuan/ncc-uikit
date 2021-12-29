@@ -684,18 +684,25 @@ var Icon$1p = function (props) {
         React__default['default'].createElement("path", { d: "M10.3 8.09014C9.91 8.48014 9.91 9.10014 10.3 9.49014L12.2 11.3901H3C2.45 11.3901 2 11.8401 2 12.3901C2 12.9401 2.45 13.3901 3 13.3901H12.2L10.3 15.2901C9.91 15.6801 9.91 16.3001 10.3 16.6901C10.69 17.0801 11.31 17.0801 11.7 16.6901L15.29 13.1001C15.68 12.7101 15.68 12.0801 15.29 11.6901L11.7 8.09014C11.31 7.70014 10.69 7.70014 10.3 8.09014ZM20 19.3901H13C12.45 19.3901 12 19.8401 12 20.3901C12 20.9401 12.45 21.3901 13 21.3901H20C21.1 21.3901 22 20.4901 22 19.3901V5.39014C22 4.29014 21.1 3.39014 20 3.39014H13C12.45 3.39014 12 3.84014 12 4.39014C12 4.94014 12.45 5.39014 13 5.39014H20V19.3901Z" })));
 };
 
-var Icon$1o = function (props) {
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-        React__default['default'].createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M5.84199 5.00181C5.35647 2.40193 7.35138 0 9.9962 0C12.3302 0 14.2222 1.89206 14.2222 4.22603V9.43607C14.806 9.39487 15.3992 9.37374 16 9.37374C16.5772 9.37374 17.1474 9.39324 17.709 9.43131V4.22603C17.709 1.89206 19.601 0 21.935 0C24.5798 0 26.5747 2.40193 26.0892 5.00181L24.9456 11.1259C28.8705 12.8395 31.8384 15.8157 31.8384 19.5556V21.8182C31.8384 24.8936 29.8038 27.4686 26.9594 29.2068C24.0928 30.9586 20.2149 32 16 32C11.7851 32 7.90719 30.9586 5.04062 29.2068C2.19624 27.4686 0.161621 24.8936 0.161621 21.8182V19.5556C0.161621 15.8355 3.09899 12.8708 6.99084 11.1538L5.84199 5.00181ZM23.48 11.9305L24.8183 4.76446C25.1552 2.96 23.7707 1.29293 21.935 1.29293C20.3151 1.29293 19.0019 2.60612 19.0019 4.22603V10.8562C18.5774 10.8018 18.1462 10.7586 17.709 10.7274C17.1484 10.6873 16.5782 10.6667 16 10.6667C15.3982 10.6667 14.8049 10.689 14.2222 10.7324C13.785 10.765 13.3537 10.8094 12.9293 10.8651V4.22603C12.9293 2.60612 11.6161 1.29293 9.9962 1.29293C8.16055 1.29293 6.77597 2.96 7.11295 4.76446L8.45562 11.9543C4.25822 13.5135 1.45455 16.3344 1.45455 19.5556V21.8182C1.45455 26.7274 7.96677 30.7071 16 30.7071C24.0332 30.7071 30.5455 26.7274 30.5455 21.8182V19.5556C30.5455 16.318 27.7131 13.4847 23.48 11.9305Z", fill: "#633001" }),
-        React__default['default'].createElement("path", { d: "M30.5455 21.8183C30.5455 26.7275 24.0333 30.7072 16 30.7072C7.96681 30.7072 1.45459 26.7275 1.45459 21.8183V19.5557H30.5455V21.8183Z", fill: "#FEDC90" }),
-        React__default['default'].createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M7.11298 4.7645C6.77601 2.96004 8.16058 1.29297 9.99624 1.29297C11.6161 1.29297 12.9293 2.60616 12.9293 4.22607V10.8652C13.9192 10.7351 14.9466 10.6667 16 10.6667C17.0291 10.6667 18.0333 10.732 19.0019 10.8562V4.22607C19.0019 2.60616 20.3151 1.29297 21.935 1.29297C23.7707 1.29297 25.1553 2.96004 24.8183 4.7645L23.4801 11.9306C27.7131 13.4847 30.5455 16.318 30.5455 19.5556C30.5455 24.4648 24.0333 28.4445 16 28.4445C7.96681 28.4445 1.45459 24.4648 1.45459 19.5556C1.45459 16.3345 4.25826 13.5135 8.45566 11.9543L7.11298 4.7645Z", fill: "#D1884F" }),
-        React__default['default'].createElement("path", { className: "left-eye", d: "M11.9595 18.9091C11.9595 20.248 11.2359 21.3333 10.3433 21.3333C9.45075 21.3333 8.72717 20.248 8.72717 18.9091C8.72717 17.5702 9.45075 16.4849 10.3433 16.4849C11.2359 16.4849 11.9595 17.5702 11.9595 18.9091Z", fill: "#633001" }),
-        React__default['default'].createElement("path", { className: "right-eye", d: "M23.1111 18.9091C23.1111 20.248 22.3875 21.3333 21.4949 21.3333C20.6024 21.3333 19.8788 20.248 19.8788 18.9091C19.8788 17.5702 20.6024 16.4849 21.4949 16.4849C22.3875 16.4849 23.1111 17.5702 23.1111 18.9091Z", fill: "#633001" })));
+var Icon$1o = function (_a) {
+    var width = _a.width, props = __rest(_a, ["width"]);
+    return (React__default['default'].createElement("img", __assign({ src: "https://i.imgur.com/TFCiyH4.png", alt: "tx8-logo" }, props, { width: width !== null && width !== void 0 ? width : "37px" })));
 };
 
+var Box = styled__default['default'].div(templateObject_1$15 || (templateObject_1$15 = __makeTemplateObject(["\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n"], ["\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n"])), styledSystem.background, styledSystem.border, styledSystem.layout, styledSystem.position, styledSystem.space);
+var templateObject_1$15;
+
+var Flex = styled__default['default'](Box)(templateObject_1$14 || (templateObject_1$14 = __makeTemplateObject(["\n  display: flex;\n  ", "\n"], ["\n  display: flex;\n  ", "\n"])), styledSystem.flexbox);
+var templateObject_1$14;
+
+var Grid = styled__default['default'](Box)(templateObject_1$13 || (templateObject_1$13 = __makeTemplateObject(["\n  display: grid;\n  ", "\n  ", "\n"], ["\n  display: grid;\n  ", "\n  ", "\n"])), styledSystem.flexbox, styledSystem.grid);
+var templateObject_1$13;
+
 var Logo$2 = function (_a) {
-    _a.isDark; var props = __rest(_a, ["isDark"]);
-    return (React__default['default'].createElement("img", __assign({ src: "https://i.imgur.com/TFCiyH4.png", className: "desktop-icon", alt: "tx8-logo" }, props, { width: "37px" })));
+    var isDark = _a.isDark, width = _a.width, props = __rest(_a, ["isDark", "width"]);
+    return (React__default['default'].createElement(Flex, { alignItems: "center" },
+        React__default['default'].createElement(Icon$1o, __assign({ width: width }, props)),
+        React__default['default'].createElement("span", { style: { color: isDark ? "white" : "#280D5F", fontWeight: "bold", marginLeft: "5px" } }, "TX8")));
 };
 var LogoWithTextIcon = React__default['default'].memo(Logo$2, function (prev, next) { return prev.isDark === next.isDark; });
 
@@ -1616,12 +1623,6 @@ ExpandableLabel.defaultProps = {
     expanded: false,
 };
 
-var Box = styled__default['default'].div(templateObject_1$15 || (templateObject_1$15 = __makeTemplateObject(["\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n"], ["\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n"])), styledSystem.background, styledSystem.border, styledSystem.layout, styledSystem.position, styledSystem.space);
-var templateObject_1$15;
-
-var Flex = styled__default['default'](Box)(templateObject_1$14 || (templateObject_1$14 = __makeTemplateObject(["\n  display: flex;\n  ", "\n"], ["\n  display: flex;\n  ", "\n"])), styledSystem.flexbox);
-var templateObject_1$14;
-
 var variants$5 = {
     INFO: "info",
     DANGER: "danger",
@@ -1657,7 +1658,7 @@ var getIcon = function (variant) {
             return Icon$2c;
     }
 };
-var IconLabel = styled__default['default'].div(templateObject_1$13 || (templateObject_1$13 = __makeTemplateObject(["\n  background-color: ", ";\n  border-radius: 16px 0 0 16px;\n  color: ", ";\n  padding: 12px;\n"], ["\n  background-color: ", ";\n  border-radius: 16px 0 0 16px;\n  color: ", ";\n  padding: 12px;\n"])), getThemeColor, function (_a) {
+var IconLabel = styled__default['default'].div(templateObject_1$12 || (templateObject_1$12 = __makeTemplateObject(["\n  background-color: ", ";\n  border-radius: 16px 0 0 16px;\n  color: ", ";\n  padding: 12px;\n"], ["\n  background-color: ", ";\n  border-radius: 16px 0 0 16px;\n  color: ", ";\n  padding: 12px;\n"])), getThemeColor, function (_a) {
     var theme = _a.theme;
     return theme.alert.background;
 });
@@ -1684,10 +1685,7 @@ var Alert = function (_a) {
             React__default['default'].createElement(IconButton, { scale: "sm", variant: "text", onClick: onClick },
                 React__default['default'].createElement(Icon$1J, { width: "24px", color: "currentColor" }))))));
 };
-var templateObject_1$13, templateObject_2$y, templateObject_3$e, templateObject_4$b;
-
-var Grid = styled__default['default'](Box)(templateObject_1$12 || (templateObject_1$12 = __makeTemplateObject(["\n  display: grid;\n  ", "\n  ", "\n"], ["\n  display: grid;\n  ", "\n  ", "\n"])), styledSystem.flexbox, styledSystem.grid);
-var templateObject_1$12;
+var templateObject_1$12, templateObject_2$y, templateObject_3$e, templateObject_4$b;
 
 var scales$7 = {
     SM: "sm",
@@ -4654,111 +4652,6 @@ var BottomNav = function (_a) {
         }))));
 };
 
-var socials = [
-    {
-        label: "Twitter",
-        icon: "Twitter",
-        href: "https://twitter.com/pancakeswap",
-    },
-    {
-        label: "Telegram",
-        icon: "Telegram",
-        items: [
-            {
-                label: "English",
-                href: "https://t.me/pancakeswap",
-            },
-            {
-                label: "Bahasa Indonesia",
-                href: "https://t.me/PancakeSwapIndonesia",
-            },
-            {
-                label: "中文",
-                href: "https://t.me/PancakeSwap_CN",
-            },
-            {
-                label: "Tiếng Việt",
-                href: "https://t.me/PancakeSwapVN",
-            },
-            {
-                label: "Italiano",
-                href: "https://t.me/pancakeswap_ita",
-            },
-            {
-                label: "русский",
-                href: "https://t.me/pancakeswap_ru",
-            },
-            {
-                label: "Türkiye",
-                href: "https://t.me/pancakeswapturkiye",
-            },
-            {
-                label: "Português",
-                href: "https://t.me/PancakeSwapPortuguese",
-            },
-            {
-                label: "Español",
-                href: "https://t.me/PancakeswapEs",
-            },
-            {
-                label: "日本語",
-                href: "https://t.me/pancakeswapjp",
-            },
-            {
-                label: "Français",
-                href: "https://t.me/pancakeswapfr",
-            },
-            {
-                label: "Announcements",
-                href: "https://t.me/PancakeSwapAnn",
-            },
-            {
-                label: "Whale Alert",
-                href: "https://t.me/PancakeSwapWhales",
-            },
-        ],
-    },
-    {
-        label: "Reddit",
-        icon: "Reddit",
-        href: "https://reddit.com/r/pancakeswap",
-    },
-    {
-        label: "Instagram",
-        icon: "Instagram",
-        href: "https://instagram.com/pancakeswap_official",
-    },
-    {
-        label: "Github",
-        icon: "Github",
-        href: "https://github.com/pancakeswap/",
-    },
-];
-__spreadArray([], Array(20)).map(function (_, i) { return ({
-    code: "en" + i,
-    language: "English" + i,
-    locale: "Locale" + i,
-}); });
-
-var SocialLinks = function (_a) {
-    var props = __rest(_a, []);
-    return (React__default['default'].createElement(Flex, __assign({}, props), socials.map(function (social, index) {
-        var iconProps = {
-            iconName: social.icon,
-            width: "20px",
-            color: darkColors.textSubtle,
-            style: { cursor: "pointer" },
-        };
-        var mr = index < socials.length - 1 ? "24px" : 0;
-        if (social.items) {
-            return (React__default['default'].createElement(Dropdown, { key: social.label, position: "top", target: React__default['default'].createElement(IconComponent, __assign({}, iconProps, { mr: mr })) }, social.items.map(function (item) { return (React__default['default'].createElement(Link, { external: true, key: item.label, href: item.href, "aria-label": item.label, color: "textSubtle" }, item.label)); })));
-        }
-        return (React__default['default'].createElement(Link, { external: true, key: social.label, href: social.href, "aria-label": social.label, mr: mr },
-            React__default['default'].createElement(IconComponent, __assign({}, iconProps))));
-    })));
-};
-var SocialLinks$1 = React__default['default'].memo(SocialLinks, function () { return true; });
-
 var StyledFooter = styled__default['default'](Flex)(templateObject_1$a || (templateObject_1$a = __makeTemplateObject(["\n  background: ", ";\n"], ["\n  background: ", ";\n"])), darkColors.backgroundAlt);
 var StyledList = styled__default['default'].ul(templateObject_2$6 || (templateObject_2$6 = __makeTemplateObject(["\n  list-style: none;\n  margin-bottom: 40px;\n\n  ", " {\n    margin-bottom: 0px;\n  }\n"], ["\n  list-style: none;\n  margin-bottom: 40px;\n\n  ", " {\n    margin-bottom: 0px;\n  }\n"])), function (_a) {
     var theme = _a.theme;
@@ -4770,7 +4663,7 @@ var StyledToolsContainer = styled__default['default'](Flex)(templateObject_5$1 |
     var theme = _a.theme;
     return theme.mediaQueries.sm;
 });
-var StyledSocialLinks = styled__default['default'](SocialLinks$1)(templateObject_6$1 || (templateObject_6$1 = __makeTemplateObject(["\n  border-bottom: 1px solid ", ";\n"], ["\n  border-bottom: 1px solid ", ";\n"])), darkColors.cardBorder);
+var StyledSocialLinks = styled__default['default'](Flex)(templateObject_6$1 || (templateObject_6$1 = __makeTemplateObject(["\n  border-bottom: 1px solid ", ";\n"], ["\n  border-bottom: 1px solid ", ";\n"])), darkColors.cardBorder);
 var StyledText = styled__default['default'].span(templateObject_7 || (templateObject_7 = __makeTemplateObject(["\n  color: ", ";\n"], ["\n  color: ", ";\n"])), darkColors.text);
 var templateObject_1$a, templateObject_2$6, templateObject_3$2, templateObject_4$1, templateObject_5$1, templateObject_6$1, templateObject_7;
 
@@ -4793,11 +4686,19 @@ var LangSelector = function (_a) {
 var LangSelector$1 = React__default['default'].memo(LangSelector, function (prev, next) { return prev.currentLang === next.currentLang; });
 
 var MenuItem = function (_a) {
-    var items = _a.items, isDark = _a.isDark, toggleTheme = _a.toggleTheme, currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang, cakePriceUsd = _a.cakePriceUsd, buyCakeLabel = _a.buyCakeLabel, props = __rest(_a, ["items", "isDark", "toggleTheme", "currentLang", "langs", "setLang", "cakePriceUsd", "buyCakeLabel"]);
+    var items = _a.items, isDark = _a.isDark, toggleTheme = _a.toggleTheme, currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang, cakePriceUsd = _a.cakePriceUsd, buyCakeLabel = _a.buyCakeLabel, onClickBuyCake = _a.onClickBuyCake, props = __rest(_a, ["items", "isDark", "toggleTheme", "currentLang", "langs", "setLang", "cakePriceUsd", "buyCakeLabel", "onClickBuyCake"]);
+    var InterestingHref = [
+        "http://goinghome.302chanwoo.com/",
+        "https://2019.makemepulse.com/",
+        "https://stars.chromeexperiments.com/",
+        "http://www.staggeringbeauty.com/",
+        "https://zoomquilt.org/",
+    ];
+    var randomInterestingHref = InterestingHref[Math.floor(Math.random() * 6)];
     return (React__default['default'].createElement(StyledFooter, __assign({ p: ["40px 16px", null, "56px 40px 32px 40px"] }, props, { justifyContent: "center" }),
         React__default['default'].createElement(Flex, { flexDirection: "column", width: ["100%", null, "1200px;"] },
             React__default['default'].createElement(StyledIconMobileContainer, { display: ["block", null, "none"] },
-                React__default['default'].createElement(LogoWithTextIcon, { isDark: true, width: "130px" })),
+                React__default['default'].createElement(LogoWithTextIcon, { isDark: true })),
             React__default['default'].createElement(Flex, { order: [2, null, 1], flexDirection: ["column", null, "row"], justifyContent: "space-between", alignItems: "flex-start", mb: ["42px", null, "36px"] }, items === null || items === void 0 ? void 0 :
                 items.map(function (item) {
                     var _a;
@@ -4808,19 +4709,18 @@ var MenuItem = function (_a) {
                             return (React__default['default'].createElement(StyledListItem, { key: label }, href ? (React__default['default'].createElement(Link, { href: href, target: "_blank", rel: "noreferrer noopener", color: isHighlighted ? baseColors.warning : darkColors.text, bold: false }, label)) : (React__default['default'].createElement(StyledText, null, label))));
                         })));
                 }),
-                React__default['default'].createElement(Box, { display: ["none", null, "block"], style: { display: "flex", alignItems: "center" } },
-                    React__default['default'].createElement(LogoWithTextIcon, { isDark: true, width: "160px" }),
-                    " ",
-                    React__default['default'].createElement("span", { style: { color: "white", fontWeight: "bold", marginLeft: "8px" } }, "TX8"))),
+                React__default['default'].createElement(Box, { display: ["none", null, "block"] },
+                    React__default['default'].createElement(LogoWithTextIcon, { isDark: true }))),
             React__default['default'].createElement(StyledSocialLinks, { order: [2], pb: ["42px", null, "32px"], mb: ["0", null, "32px"] }),
             React__default['default'].createElement(StyledToolsContainer, { order: [1, null, 3], flexDirection: ["column", null, "row"], justifyContent: "space-between" },
                 React__default['default'].createElement(Flex, { order: [2, null, 1], alignItems: "center" },
                     React__default['default'].createElement(ThemeSwitcher$1, { isDark: isDark, toggleTheme: toggleTheme }),
-                    React__default['default'].createElement(LangSelector$1, { currentLang: currentLang, langs: langs, setLang: setLang, color: darkColors.textSubtle, dropdownPosition: "top-right" })),
+                    React__default['default'].createElement(LangSelector$1, { currentLang: currentLang, langs: langs, setLang: setLang, color: darkColors.textSubtle, dropdownPosition: "top-right" }),
+                    React__default['default'].createElement(Button, { as: "a", href: randomInterestingHref, target: "_blank", style: { opacity: 0, cursor: "default" } }, "b")),
                 React__default['default'].createElement(Flex, { order: [1, null, 2], mb: ["24px", null, "0"], justifyContent: "space-between", alignItems: "center" },
                     React__default['default'].createElement(Box, { mr: "20px" },
                         React__default['default'].createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd, color: darkColors.textSubtle })),
-                    React__default['default'].createElement(Button, { as: "a", href: "https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82", target: "_blank", scale: "sm", endIcon: React__default['default'].createElement(Icon$23, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
+                    React__default['default'].createElement(Button, { as: "a", onClick: onClickBuyCake, scale: "sm", endIcon: React__default['default'].createElement(Icon$23, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
 };
 
 var MenuItems = function (_a) {
@@ -4836,16 +4736,19 @@ var MenuItems = function (_a) {
 };
 
 var blink = styled.keyframes(templateObject_1$8 || (templateObject_1$8 = __makeTemplateObject(["\n  0%,  100% { transform: scaleY(1); } \n  50% { transform:  scaleY(0.1); } \n"], ["\n  0%,  100% { transform: scaleY(1); } \n  50% { transform:  scaleY(0.1); } \n"])));
-var StyledLink = styled__default['default'](reactRouterDom.Link)(templateObject_2$5 || (templateObject_2$5 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  .desktop-icon {\n    width: 30px;\n    margin-right: 8px;\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  .desktop-icon {\n    width: 30px;\n    margin-right: 8px;\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"])), function (_a) {
+var StyledLink = styled__default['default'](reactRouterDom.Link)(templateObject_2$5 || (templateObject_2$5 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 30px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 30px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"])), function (_a) {
+    var theme = _a.theme;
+    return theme.mediaQueries.nav;
+}, function (_a) {
     var theme = _a.theme;
     return theme.mediaQueries.nav;
 }, blink);
 var Logo = function (_a) {
-    _a.isDark; var href = _a.href;
+    var isDark = _a.isDark, href = _a.href;
     var isAbsoluteUrl = href.startsWith("http");
     var innerLogo = (React__default['default'].createElement(React__default['default'].Fragment, null,
-        React__default['default'].createElement("img", { src: "https://i.imgur.com/TFCiyH4.png", className: "desktop-icon", alt: "tx8-logo" }),
-        React__default['default'].createElement("span", { className: "mobile-icon", style: { fontWeight: "bold" } }, "TX8")));
+        React__default['default'].createElement(Icon$1o, { className: "mobile-icon" }),
+        React__default['default'].createElement(LogoWithTextIcon, { className: "desktop-icon", isDark: isDark })));
     return (React__default['default'].createElement(Flex, null, isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "Pancake home page" }, innerLogo)) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Pancake home page" }, innerLogo))));
 };
 var Logo$1 = React__default['default'].memo(Logo, function (prev, next) { return prev.isDark === next.isDark; });

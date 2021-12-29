@@ -1,7 +1,8 @@
 import React from "react";
 import { SvgProps } from "../types";
-interface LogoProps extends SvgProps {
-    isDark: boolean;
+export interface LogoProps extends SvgProps {
+    isDark?: boolean;
+    width?: string;
 }
 declare const _default: React.NamedExoticComponent<LogoProps>;
 export default _default;
