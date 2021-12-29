@@ -1,14 +1,19 @@
 import React from "react";
-import Svg from "../Svg";
+import { LogoIcon } from "..";
+import { Flex } from "../../Box";
 import { SvgProps } from "../types";
 
-interface LogoProps extends SvgProps {
-  isDark: boolean;
+export interface LogoProps extends SvgProps {
+  isDark?: boolean;
+  width?: string;
 }
 
-const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
+const Logo: React.FC<LogoProps> = ({ isDark, width, ...props }) => {
   return (
-    <img src="https://i.imgur.com/TFCiyH4.png" className="desktop-icon" alt="tx8-logo" {...props} width="37px"/>
+    <Flex alignItems="center">
+      <LogoIcon width={width} {...props}/>
+      <span style={{ color: isDark? "white":"#280D5F", fontWeight: "bold", marginLeft: "5px" }}>TX8</span>
+    </Flex>
   );
 };
 

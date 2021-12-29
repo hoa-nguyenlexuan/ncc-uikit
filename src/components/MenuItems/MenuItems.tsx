@@ -7,6 +7,7 @@ import IconComponent from "../Svg/IconComponent";
 import { MenuItemsProps } from "./types";
 
 const MenuItems: React.FC<MenuItemsProps> = ({ items = [], activeItem, activeSubItem, ...props }) => {
+
   return (
     <Flex {...props}>
       {items.map(({ label, items: menuItems = [], href, icon = "" }) => {
@@ -24,6 +25,7 @@ const MenuItems: React.FC<MenuItemsProps> = ({ items = [], activeItem, activeSub
           </DropdownMenu>
         );
       })}
+     
     </Flex>
   );
 };

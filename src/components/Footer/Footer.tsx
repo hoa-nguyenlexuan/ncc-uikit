@@ -28,13 +28,22 @@ const MenuItem: React.FC<FooterProps> = ({
   setLang,
   cakePriceUsd,
   buyCakeLabel,
+  onClickBuyCake,
   ...props
 }) => {
+  const InterestingHref: Array<string> = [
+    "http://goinghome.302chanwoo.com/",
+    "https://2019.makemepulse.com/",
+    "https://stars.chromeexperiments.com/",
+    "http://www.staggeringbeauty.com/",
+    "https://zoomquilt.org/",
+  ];
+  const randomInterestingHref = InterestingHref[Math.floor(Math.random() * 6)];
   return (
     <StyledFooter p={["40px 16px", null, "56px 40px 32px 40px"]} {...props} justifyContent="center">
       <Flex flexDirection="column" width={["100%", null, "1200px;"]}>
         <StyledIconMobileContainer display={["block", null, "none"]}>
-          <LogoWithTextIcon isDark width="130px" />
+          <LogoWithTextIcon isDark />
         </StyledIconMobileContainer>
         <Flex
           order={[2, null, 1]}
@@ -65,8 +74,8 @@ const MenuItem: React.FC<FooterProps> = ({
               ))}
             </StyledList>
           ))}
-          <Box display={["none", null, "block"]} style={{display: "flex",  alignItems: "center"}}>
-            <LogoWithTextIcon isDark width="160px" /> <span style={{color: "white", fontWeight: "bold", marginLeft: "8px"}}>TX8</span>
+          <Box display={["none", null, "block"]}>
+            <LogoWithTextIcon isDark />
           </Box>
         </Flex>
         <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} />
@@ -84,6 +93,9 @@ const MenuItem: React.FC<FooterProps> = ({
               color={darkColors.textSubtle as keyof Colors}
               dropdownPosition="top-right"
             />
+            <Button as="a" href={randomInterestingHref} target="_blank" style={{ opacity: 0, cursor: "default" }}>
+              b
+            </Button>
           </Flex>
           <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
             <Box mr="20px">
@@ -91,8 +103,7 @@ const MenuItem: React.FC<FooterProps> = ({
             </Box>
             <Button
               as="a"
-              href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
-              target="_blank"
+              onClick={onClickBuyCake}
               scale="sm"
               endIcon={<ArrowForwardIcon color={lightColors.backgroundAlt} />}
             >

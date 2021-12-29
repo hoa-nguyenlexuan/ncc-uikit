@@ -48,7 +48,7 @@ export const StyledToolsContainer = styled(Flex)`
   }
 `;
 
-export const StyledSocialLinks = styled(SocialLinks)`
+export const StyledSocialLinks = styled(Flex)`
   border-bottom: 1px solid ${darkColors.cardBorder};
 `;
 

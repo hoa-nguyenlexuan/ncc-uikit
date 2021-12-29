@@ -19,14 +19,16 @@ const StyledLink = styled(Link)`
   align-items: center;
   .mobile-icon {
     width: 32px;
-    display: none;
     ${({ theme }) => theme.mediaQueries.nav} {
-      display: block;
+      display: none;
     }
   }
   .desktop-icon {
     width: 30px;
-    margin-right: 8px;
+    display: none;
+    ${({ theme }) => theme.mediaQueries.nav} {
+      display: block;
+    }
   }
   .right-eye {
     animation-delay: 20ms;
@@ -46,9 +48,8 @@ const Logo: React.FC<Props> = ({ isDark, href }) => {
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = (
     <>
-      {/* <LogoWithTextIcon className="desktop-icon" isDark={isDark} /> */}
-      <img src="https://i.imgur.com/TFCiyH4.png" className="desktop-icon" alt="tx8-logo"/>
-      <span className="mobile-icon" style={{fontWeight: "bold"}}>TX8</span>
+      <LogoIcon className="mobile-icon" />
+      <LogoWithTextIcon className="desktop-icon" isDark={isDark} />
     </>
   );
 
