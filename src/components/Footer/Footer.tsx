@@ -60,8 +60,6 @@ const MenuItem: React.FC<FooterProps> = ({
                   {href ? (
                     <Link
                       href={href}
-                      target="_blank"
-                      rel="noreferrer noopener"
                       color={isHighlighted ? baseColors.warning : darkColors.text}
                       bold={false}
                     >
