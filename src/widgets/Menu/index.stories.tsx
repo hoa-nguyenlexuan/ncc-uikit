@@ -95,6 +95,7 @@ const defaultProps = {
   activeItem: "/swap",
   activeSubItem: "https://exchange.pancakeswap.finance",
   buyCakeLabel: "Buy CAKE",
+  onClickBuyCake: () => null
 };
 
 const ConnectedTemplate: React.FC<NavProps> = (args) => {

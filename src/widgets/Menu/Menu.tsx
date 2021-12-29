@@ -79,6 +79,7 @@ const Menu: React.FC<NavProps> = ({
   langs,
   buyCakeLabel,
   children,
+  onClickBuyCake,
 }) => {
   const { isMobile } = useMatchBreakpoints();
   const [showMenu, setShowMenu] = useState(true);
@@ -178,6 +179,7 @@ const Menu: React.FC<NavProps> = ({
             currentLang={currentLang}
             cakePriceUsd={cakePriceUsd}
             buyCakeLabel={buyCakeLabel}
+            onClickBuyCake={onClickBuyCake}
             mb={[`${MOBILE_MENU_HEIGHT}px`, null, "0px"]}
           />
         </Inner>
